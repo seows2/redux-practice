@@ -1,0 +1,3 @@
+[submodule "2.react-redux/learn-redux"]
+	path = 2.react-redux/learn-redux
+	url = https://github.com/vlpt-playground/learn-redux.git
