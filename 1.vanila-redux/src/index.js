@@ -58,4 +58,18 @@ const render = () => {
     counterHeadings.innerText = counter
 }
 
-render()
+render();
+
+store.subscribe(render);
+
+switchButton.onclick = () => {
+    store.dispatch(toggleSwitch());
+}
+
+plusButton.onclick = () => {
+    store.dispatch(increment(2));
+}
+
+minusButton.onclick = () => {
+    store.dispatch(decrement());
+}
