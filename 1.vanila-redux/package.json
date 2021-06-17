@@ -1,0 +1,21 @@
+{
+  "name": "1.vanila-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "redux": "^4.1.0"
+  }
+}
